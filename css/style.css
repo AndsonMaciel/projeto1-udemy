@@ -1,77 +1,90 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #dfdede;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
+    background-color: #dfdede;
 }
 
-header {
+.hero {
+    height: 490px;
     background-image: url(../img/bg-3.jpg);
     background-size: 100%;
-    height: 500px;
-    text-align: center;
+    background-position: bottom;
 }
 
 nav {
-    background-color: red;
     text-align: right;
-    margin
+    padding: 5px;
 }
 
-li {
+.menu li {
+    list-style-type: none;
     display: inline-block;
+    padding: 10px 0 10px 0;
+    margin-right: 10px;
+}
+
+.menu a {
+    background-color: gray;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: gray;
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 10%;
+    color: white;
 }
 
 h1 {
-    color: white;
+    font-size: 50px;
 }
 
-.subtitle {
-    font-size: 12px;
-    color: white;
+.hero-content p {
     background-color: black;
-    display: inline;
-    padding: px;
-    border-bottom: 3px solid;
+    display: inline-block;
+    padding: 5px;
 }
 
-section {
+
+.container {
     width: 80%;
     margin: auto;
+
 }
 
-
-article {
+article{
     background-color: white;
-    margin-top: 10px;
-
-}
-
-h2 {
-    display: inline-block;
-    background-color: #dfdede;
-    border-bottom: 2px solid #c6c4c4;
-    margin: 10px 10px 0 10px;
-    width: 95%;
+    margin: 20px;
     padding: 10px;
 }
 
-p {
-    padding: 5px 10px;
+h2{
+    background-color: #dfdede;
+    border-bottom: gray;
+    padding: 10px;
+    margin-top: 0;
 }
 
-a {
-    display: inline-block;
+.container a{
     background-color: #dfdede;
     padding: 10px;
-    color: blue;
+    display: inline-block;
     margin-bottom: 5px;
     border-radius: 3px;
-}
-
+} 
 
 footer {
-    background-color: gray;
     text-align: center;
+    padding: 20px;
+    background-color: gray;
     color: white;
-    padding: 5px;
 }
